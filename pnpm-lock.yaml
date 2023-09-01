@@ -5,77 +5,77 @@ dependencies:
     specifier: ^2.2.1
     version: 2.2.1(shiki@0.14.3)
   '@stn-ui/accordion':
-    specifier: ^2.0.8
-    version: 2.0.8(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.0.9
+    version: 2.0.9(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/avatar':
-    specifier: ^2.0.12
-    version: 2.0.12(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.0.13
+    version: 2.0.13(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/banner':
-    specifier: ^2.0.8
-    version: 2.0.8(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/blog':
     specifier: ^2.0.9
     version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/button':
-    specifier: ^2.0.18
-    version: 2.0.18(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/chat-row':
+  '@stn-ui/blog':
     specifier: ^2.0.10
     version: 2.0.10(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/button':
+    specifier: ^2.0.19
+    version: 2.0.19(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/chat-row':
+    specifier: ^2.0.11
+    version: 2.0.11(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/chats-navigation':
-    specifier: ^2.0.8
-    version: 2.0.8(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.0.9
+    version: 2.0.9(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/color-avatar':
-    specifier: ^2.0.8
-    version: 2.0.8(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.0.9
+    version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/common-utils':
     specifier: ^2.0.2
     version: 2.0.2(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/features':
-    specifier: ^2.0.8
-    version: 2.0.8(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/form':
-    specifier: ^2.0.8
-    version: 2.0.8(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0)
-  '@stn-ui/forms':
-    specifier: ^2.0.8
-    version: 2.0.8(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0)
-  '@stn-ui/heading':
-    specifier: ^2.0.8
-    version: 2.0.8(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/icons':
-    specifier: ^2.0.11
-    version: 2.0.11(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/inputs':
-    specifier: ^2.0.8
-    version: 2.0.8(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)
-  '@stn-ui/layout':
-    specifier: ^2.0.12
-    version: 2.0.12(@stn-ui/provider@2.0.5)(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/link':
-    specifier: ^2.0.13
-    version: 2.0.13(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/loadable':
-    specifier: ^2.0.11
-    version: 2.0.11(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/loader':
-    specifier: ^2.0.11
-    version: 2.0.11(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/logo':
-    specifier: ^2.0.8
-    version: 2.0.8(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/messages':
-    specifier: ^2.0.8
-    version: 2.0.8(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/modal':
     specifier: ^2.0.9
     version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/navigation':
+  '@stn-ui/form':
     specifier: ^2.0.9
-    version: 2.0.9(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.0.9(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0)
+  '@stn-ui/forms':
+    specifier: ^2.0.9
+    version: 2.0.9(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0)
+  '@stn-ui/heading':
+    specifier: ^2.0.9
+    version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/icons':
+    specifier: ^2.0.12
+    version: 2.0.12(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/inputs':
+    specifier: ^2.0.9
+    version: 2.0.9(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)
+  '@stn-ui/layout':
+    specifier: ^2.0.13
+    version: 2.0.13(@stn-ui/provider@2.0.5)(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/link':
+    specifier: ^2.0.14
+    version: 2.0.14(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/loadable':
+    specifier: ^2.0.12
+    version: 2.0.12(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/loader':
+    specifier: ^2.0.12
+    version: 2.0.12(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/logo':
+    specifier: ^2.0.9
+    version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/messages':
+    specifier: ^2.0.9
+    version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/modal':
+    specifier: ^2.0.10
+    version: 2.0.10(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/navigation':
+    specifier: ^2.0.10
+    version: 2.0.10(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/pagination':
-    specifier: ^2.0.8
-    version: 2.0.8(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.0.9
+    version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/provider':
     specifier: ^2.0.5
     version: 2.0.5(react-dom@18.2.0)(react@18.2.0)
@@ -83,23 +83,23 @@ dependencies:
     specifier: ^2.0.3
     version: 2.0.3(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/sidebar':
-    specifier: ^2.0.8
-    version: 2.0.8(@stn-ui/provider@2.0.5)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.0.9
+    version: 2.0.9(@stn-ui/provider@2.0.5)(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/switcher':
-    specifier: ^2.0.8
-    version: 2.0.8(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/table':
-    specifier: ^2.0.10
-    version: 2.0.10(react-dom@18.2.0)(react@18.2.0)
-  '@stn-ui/text':
     specifier: ^2.0.9
     version: 2.0.9(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/table':
+    specifier: ^2.0.11
+    version: 2.0.11(react-dom@18.2.0)(react@18.2.0)
+  '@stn-ui/text':
+    specifier: ^2.0.10
+    version: 2.0.10(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/theme':
-    specifier: ^2.0.13
-    version: 2.0.13
+    specifier: ^2.0.14
+    version: 2.0.14
   '@stn-ui/toasts':
-    specifier: ^2.0.8
-    version: 2.0.8(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.0.9
+    version: 2.0.9(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0)
   '@stn-ui/use-toggle-boolean':
     specifier: ^2.0.4
     version: 2.0.4(react-dom@18.2.0)(react@18.2.0)
@@ -502,101 +502,101 @@ packages:
     resolution: {integrity: sha512-0xd7qez0AQ+MbHatZTlI1gu5vkG8r7MYRUJAHPAHJBmGLs16zpkrpAVLvjQKQOqaXPDUBwOiJzNc00znHSCVBw==}
     dev: false
 
-  /@stn-ui/accordion@2.0.8(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Yi4S9YN+MCW5vCyxopEHqVCV6Hgop3sW9/qBWVm2sYQAYl5V11qxXfzz0xdL/6YxaknxC+fijsXgz8yYKOI0EQ==}
+  /@stn-ui/accordion@2.0.9(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-8dNuIAY1noSvT8Wmeu8x8fA8+a8ZAvxbUJ/cihkrqiRiZfwatF6fuSRwv5G65exwZLW/KYvaicBInf+CqyHw8w==}
     peerDependencies:
       framer-motion: ^10.15.0
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       framer-motion: 10.16.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/avatar@2.0.12(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-q8n//KKb4S3ZcJq4SVO+V0FovvmIa3T39tSpOrwttfBN9AKQQ6V3ezMYBVmEc3iAziI5GL1E5NSTBO3EeTPsIw==}
+  /@stn-ui/avatar@2.0.13(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-npBH8v9zP2/FUXlwdLxiJEyoe8IaVnaBllEtRQ99t/Fmr4rsHjOQHsSoVwOUR0hA0EaciTXsFz3a8E0oWJJmMA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/theme': 2.0.14
       object-hash: 3.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/banner@2.0.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-hqRIJnpJftuWmL4zm0kyzR6UviPSqATIxW73hfjSzXLLllBdnJMvYabLr6Gs99xTrcnece71ZhktEJQb5PmO8A==}
+  /@stn-ui/banner@2.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-PjgomAYaU9vKmjYCt1j31ORycmvw3WM3SXm/KVNWEVbNBlydF+yW31gFoDfqG76RT+dUeub3JLZ4VpknjndIjw==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/heading': 2.0.8(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/text': 2.0.9(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/heading': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/text': 2.0.10(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/blog@2.0.9(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-q1obOxbpU/RJxX91jTBmVuCfvxXUm9J6gnHq/VipjKbsWrb9hpS1noKnrB2ssKosbzjrO5ziOrF/tdZcK7HJ8A==}
+  /@stn-ui/blog@2.0.10(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-R90cBW9Mb/IiMzQVvcdGY32gP9n9jC2fjp+tw/zvg2cSewKnr/RXVyxlN9NTQHe+3Psaoihyaj4z59bPFUVowg==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/avatar': 2.0.12(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/avatar': 2.0.13(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/button@2.0.18(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-oaawePGpit8mwV3biit98nK9TullX2Xv8LHHqvZmA0l41s3kzsciSDYSNoS/9wAIvCYKqn6JkHbs5o9CN/mTaA==}
+  /@stn-ui/button@2.0.19(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Lk0CWcZr5Mkd3lQ69PtEsfl5d2EEJzMvRPeIokae/pw/aASLbuT3KnUj/7Y6ElE+U0xz/YX6NivGIxHyrmFlVw==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/loadable': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/loadable': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       object-hash: 3.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/chat-row@2.0.10(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-nXi4fG44OUbFsfQL2e3hW2Xh8gwI7JxgiIZ+08XSBvWnNZ1V/3F3SjCY/TJGv42wQqD0T7BH6EDvk93OhT5OUA==}
+  /@stn-ui/chat-row@2.0.11(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-0uJ8etfybgsqHV+k0VTgpnxmIntl8nGaRF8kdqqwExaQOgTAx/XFSIl+zdxMw95zMT46emb33QU/AUWiZXpEBQ==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/avatar': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/avatar': 2.0.13(react-dom@18.2.0)(react@18.2.0)
       '@stn-ui/common-utils': 2.0.2(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/table': 2.0.10(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/table': 2.0.11(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       object-hash: 3.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/chats-navigation@2.0.8(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-4WPpxGBQAZayElpmPOhAXmkZ61o9GO21uOBuDoPhY+dS26BqCGmyX4nH5087UFIJaVyEwX1fNexVSB8OGc+/lA==}
+  /@stn-ui/chats-navigation@2.0.9(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ErUZRRas6DkhOsrRRjwbyTlJmb9ZA2br+vcFEZA52hQEvpsWJafTLvJQEpROh5JIR3CW5pCxOlK39vircidj/w==}
     peerDependencies:
       framer-motion: ^10.15.0
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/button': 2.0.18(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/heading': 2.0.8(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/button': 2.0.19(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/heading': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       '@stn-ui/use-toggle-boolean': 2.0.4(react-dom@18.2.0)(react@18.2.0)
       framer-motion: 10.16.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
@@ -604,14 +604,14 @@ packages:
       react-responsive: 9.0.2(react@18.2.0)
     dev: false
 
-  /@stn-ui/color-avatar@2.0.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-PnrzmXV95RCW1V31DzHdJ1sSLEIruddrFKTOazG8VT/gotD4ILPdgEw+VwX4Ao89mtS6GLwuKf2dpRBFdAYGMg==}
+  /@stn-ui/color-avatar@2.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pEbCmkvsDvjF3XFyOK/0opZmlfeAwliWMMTZ+xzuOngcsFWuxoxLrd47awsO2xis4zJ/FyX706rcOcoapCu3Lg==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/avatar': 2.0.12(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/avatar': 2.0.13(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -626,20 +626,20 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/features@2.0.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-CKu/BRKyQWLeS+k8XFXBwn8D8U4kMDgYsdBZ4MGZdjefhmN7fKEL1DzRROEMYdlh5a6WETz54Ht4Ads6L3IfPw==}
+  /@stn-ui/features@2.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-mMH5ckYrspgghiX6oErVdNhKw1e7P99ek3WSm9DDGiGJz6hsiO9Saeuj61ugEK/xxoouwPt0cDqrE4lUv62J7Q==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/text': 2.0.9(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/text': 2.0.10(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/form@2.0.8(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0):
-    resolution: {integrity: sha512-6Pn1Bfo8JHXUZBQnAfsfQru9pBM7nvUbAJX01OYsVZGjQe/5rMAT/e13k3a8d3GmHjbEaP3WplA+Xy4seuhu+Q==}
+  /@stn-ui/form@2.0.9(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0):
+    resolution: {integrity: sha512-Suzfh4dmjClu8nkVsEpF9D8kiBOwGVC+kbv5hvsh+ktQwaF2yuLLqKxDK3H+UuJfHIjwqirRf8Sjy8JaIk+wng==}
     peerDependencies:
       '@hookform/resolvers': ^3.2.0
       react: '>=18'
@@ -648,10 +648,10 @@ packages:
       yup: ^1.2.0
     dependencies:
       '@hookform/resolvers': 3.2.0(react-hook-form@7.45.4)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/inputs': 2.0.8(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/inputs': 2.0.9(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)
       '@stn-ui/react-utils': 2.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/theme': 2.0.14
       '@stn-ui/use-toggle-boolean': 2.0.4(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -661,24 +661,24 @@ packages:
       - '@types/react'
     dev: false
 
-  /@stn-ui/forms@2.0.8(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0):
-    resolution: {integrity: sha512-2nux48yKxGYefRuNlnvJOtm5e1To089Wde6w6o5236kdbAWhzkjrq2XOvk/mDS/U2agINs9M3V9NCoJQM+QnlQ==}
+  /@stn-ui/forms@2.0.9(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0):
+    resolution: {integrity: sha512-ezP57fxcGVtSkrWdCANDfhi0mIo1y0wCts93oh6013uImHUXYtTq7MXuGWsOvfz1xVbnxrYlNRvZ6mJNk11oKg==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
       react-hook-form: ^7.45.4
       yup: ^1.2.0
     dependencies:
-      '@stn-ui/button': 2.0.18(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/color-avatar': 2.0.8(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/form': 2.0.8(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/inputs': 2.0.8(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)
-      '@stn-ui/logo': 2.0.8(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/modal': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/button': 2.0.19(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/color-avatar': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/form': 2.0.9(@hookform/resolvers@3.2.0)(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)(yup@1.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/inputs': 2.0.9(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0)
+      '@stn-ui/logo': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/modal': 2.0.10(react-dom@18.2.0)(react@18.2.0)
       '@stn-ui/react-utils': 2.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/text': 2.0.9(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/text': 2.0.10(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-hook-form: 7.45.4(react@18.2.0)
@@ -688,40 +688,40 @@ packages:
       - '@types/react'
     dev: false
 
-  /@stn-ui/heading@2.0.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-VuAIP8G7FeMyAjfBweZdnvDVgEDCnbUmEnEDHyhzuaCd0T6zO0ltTJ+R8oym0qh/OYeIgbr9Gr+LYL3YKxe+fw==}
+  /@stn-ui/heading@2.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-emF+Ytai33lXxzfO4jxFruPbI3l0Hx9rINRHkoBE8b4k465PTD6gSvlfXyXyaWCEfOnMX49TlNo6hS1yIhyVEQ==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/icons@2.0.11(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-UGTgFqPx6MIWXMLqTD8i0CM5TBPMzkJGOBB74/YR95fejS9s5ZqOKaN5dPgKrlAMSL/FZ3BBfWkm0fjSbQ9k2A==}
+  /@stn-ui/icons@2.0.12(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-2LLtHEWafjYeswbTJQpGExZHyfmj70imj+xjoxmcBNZxDoaU/6XCAV1MLt+IHy/r5YfL4mjxM+ZpxzZr8L7CmA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/theme': 2.0.14
       object-hash: 3.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/inputs@2.0.8(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0):
-    resolution: {integrity: sha512-x9LYN2/3Cnqw0zOCIYTiP3ntH4+C1AIAlusPgpLTUFLsn7y/cMfcpc2FYUoD8q2Q6urvANvu6Qq013zsB498rA==}
+  /@stn-ui/inputs@2.0.9(@types/react@18.2.20)(react-dom@18.2.0)(react-hook-form@7.45.4)(react@18.2.0):
+    resolution: {integrity: sha512-n13OYGMVvlAtwRv9tRCzKhS97PBkJ9EYfASEaTezSyA2hJGcq+WGVWmwB+Y49+kyuKjsTl8+ijKZcfQUKmTRhQ==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
       react-hook-form: ^7.45.4
     dependencies:
       '@headlessui/react': 1.7.16(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/text': 2.0.9(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/text': 2.0.10(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       '@stn-ui/use-toggle-boolean': 2.0.4(react-dom@18.2.0)(react@18.2.0)
       lodash.isequal: 4.5.0
       react: 18.2.0
@@ -732,27 +732,27 @@ packages:
       - '@types/react'
     dev: false
 
-  /@stn-ui/layout@2.0.12(@stn-ui/provider@2.0.5)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-UQsBwjS8QM190TqqpV+/Tjs7OCftEu9bce3eAhO3RY/GkDdY18Wi9IP3+lifsd3d84Z0DLTqff7J5YA9hojuww==}
+  /@stn-ui/layout@2.0.13(@stn-ui/provider@2.0.5)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-KKWN09DIsF+PWz2r1nidb+KIqJZnvEJTA4khGTbFv0NUop5pyF6QUbFOdqgOMKEZ9+3otD/J9JUbjniJfQXsqQ==}
     peerDependencies:
       '@stn-ui/provider': 2.0.5
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/avatar': 2.0.12(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/heading': 2.0.8(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/avatar': 2.0.13(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/heading': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
       '@stn-ui/provider': 2.0.5(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/text': 2.0.9(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/text': 2.0.10(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-responsive: 9.0.2(react@18.2.0)
     dev: false
 
-  /@stn-ui/link@2.0.13(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-PcSy6i+7wR4bUYagF//7i5/A5ai7s91GzGuAzu/rCa9DB+/aKZOn90216M8GTedtfqHKcefy9MN09yWgQN4cLA==}
+  /@stn-ui/link@2.0.14(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xem61nKQVsIkA/iG63JvwQxGij2s5vdske3nm+OSKX6pJYmrQmt06TNIlLSbz0Hm2RPZX1JsE0uPABQtm1aUTg==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -763,72 +763,72 @@ packages:
       '@react-types/link': 3.4.4(react@18.2.0)
       '@react-types/shared': 3.19.0(react@18.2.0)
       '@stn-ui/react-utils': 2.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/loadable@2.0.11(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-TmIfBM6If8LBYs3+XCL0YFssdil2OwngQj7diJ0VLF3ouKzIF+qzWSsgNCjAgvxSWXEd0afKyuMeEruENQ/v/A==}
+  /@stn-ui/loadable@2.0.12(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-c02rOOTBv7+LZ0ufUrfZiPzMl2nG6XlBp6bfXpvj0dBINfIOp2d7Wu7hDpqLXznZaIlW38hJveToHxV0Z8RAgA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/loader': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/loader': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       object-hash: 3.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/loader@2.0.11(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-hsYrRNXfDKuBQWs18sDR6X1WhWOMM9X/YO8cXnuoYBw8HDI5GddovKKLbVboE3/1l8FIKh9zyRmoc6Ot8wseoA==}
+  /@stn-ui/loader@2.0.12(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-w4bSCrzXFo4RPQu9E+qW/41vSrpAD2vHVg/+GUYwiQtUYtF5rVlqr00LNRpNZnTaDNbditMSDoiDat7CEppcsA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       object-hash: 3.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/logo@2.0.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-muoEKyE2Y34rv5R591HGF6Ji3B2ugZOkA756I+1TwvBxW0Bn0OoKwPANLmrheK3qXJEz7g38jLe8Nmtup9sFwQ==}
+  /@stn-ui/logo@2.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-mEzfPQwUrCLRr6E7+nugTMkE2OQOVifSGMNxJbNwFnz8g6ga2/cNdWxTlVHjINLJ4ExZmW+sOPWPPXw1eY5y1Q==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/messages@2.0.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Q0ylBNOtijpKP8KMLs21mJfzflwfKKQS32juLFek6BcwWAYOdh0ICX5fEoSzQGzNJXrRi+2CGb/dvJ0BjD8Zhg==}
+  /@stn-ui/messages@2.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ChDLZz4Nhq4nDPzHMALnWF9+ifAN4+0WQdkPIpoveP2eYJ2HvlBIXSQ8KBXj5NPJUs9E4JIY/vOfZAoughRjBQ==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/avatar': 2.0.12(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/avatar': 2.0.13(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/modal@2.0.9(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-WrjdZYErLwdDPqN9qt/l6/Ks3m5WhSCcnt94IoI999hXYyRDn2uCZOZsk7czTJeO+LQ5R3jELZi1XkweLMVtOg==}
+  /@stn-ui/modal@2.0.10(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-8BAuTcuaiBpxvaeHWUXVaPmf4RlT0F2fn7Wz5RaDMP4RFYNRoi4kXLfM87gIInrIQNGA/IW3mHV+Bvppb7UZkQ==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/button': 2.0.18(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/heading': 2.0.8(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/button': 2.0.19(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/heading': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       lodash.isempty: 4.4.0
       lodash.last: 3.0.0
       lodash.unionwith: 4.6.0
@@ -837,31 +837,31 @@ packages:
       react-modal: 3.16.1(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
-  /@stn-ui/navigation@2.0.9(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-4SxCHlNTBvXOAXHEKBNqEq5KBLftJW9c7cLYelTxK5ca7ACeBY3ru1yMCzNZGgFEGUhzx2yToIVi/n7SPx4SzA==}
+  /@stn-ui/navigation@2.0.10(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Xrfsf26NKrZ0oI3B+SMpDknDkRil4+76hAVmMO4BldjC6h8LmRX7NSfTCEu6AsN9tQM+VieskZ2oLJlJBv3ebA==}
     peerDependencies:
       framer-motion: ^10.15.0
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       framer-motion: 10.16.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-responsive: 9.0.2(react@18.2.0)
     dev: false
 
-  /@stn-ui/pagination@2.0.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-S9KWA0DnWy2TvbvGf/WQcrm/u3j4adT5I++A0zd3/gfXgAG9aU5uzQeQ2C0E1utvt1+WwK+7RORFiz2HDtDYow==}
+  /@stn-ui/pagination@2.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-T/ARqs/pC66mkhOFZPzRX8SJ0xXRG8RDltY3xvzjk/wLhGmsZA668TFggYPonq24kWnYlJddRnnLJpa74zdaBQ==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/button': 2.0.18(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/button': 2.0.19(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       lodash.map: 4.6.0
       lodash.range: 3.2.0
       react: 18.2.0
@@ -891,41 +891,41 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/sidebar@2.0.8(@stn-ui/provider@2.0.5)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-zLI7tI++gD08fr51qWReZJxSPH91Y/oH99Rll+IAYm7zfQFTRbNHeyj84LP4pgLfT+GqTMNvS4Frej/SQjdCLg==}
+  /@stn-ui/sidebar@2.0.9(@stn-ui/provider@2.0.5)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-od/j5+rNoXWIlFFtseMOYaPE7jOF6BhDJ6pSEcywTG3POK00KXNvLQnS5hALdGN7tlA3kisILKODhFmShSkMmA==}
     peerDependencies:
       '@stn-ui/provider': 2.0.5
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/logo': 2.0.8(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/logo': 2.0.9(react-dom@18.2.0)(react@18.2.0)
       '@stn-ui/provider': 2.0.5(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/switcher@2.0.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-a0mf4PkH/Xz0j7M48Zf45ZRcXMQJ4Bhwekt4otHWSA6Y5xUyRpL22OS3I+MPe8dZ+87muuKLYZ8mR14+9qjpIA==}
+  /@stn-ui/switcher@2.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-6dGoVOIzrZjGOwCp2HgC8s2+yd/MGsagvos1kRITSykud1ub3Z40ImUZ6QbJZz+VWaegSsz5JlHH/19TCdV5gw==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/table@2.0.10(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-GUbHuBvIpAYwp5hqZtawC/SUi3pJkEtqJltf03kHvRKd5m0K35SVkRVwsf/tr5CnFMmdIsT/ONdNAuXp/QtzNw==}
+  /@stn-ui/table@2.0.11(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Z0ksAct/GDqIkgXRj5+qEVc7R+BVlG5wcz5iAqi3xyQJuZKrtL43q02MjOZiaRFfYJCWkgqMr2jl6T/cYdkCbA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/link': 2.0.13(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/link': 2.0.14(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/theme': 2.0.14
       '@stn-ui/use-toggle-boolean': 2.0.4(react-dom@18.2.0)(react@18.2.0)
       object-hash: 3.0.0
       react: 18.2.0
@@ -933,34 +933,34 @@ packages:
       react-responsive: 9.0.2(react@18.2.0)
     dev: false
 
-  /@stn-ui/text@2.0.9(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-j0vA7WW0Q4YVn2avi0kiSbuOxlmkLHFPsBbGdjRdG0nyhwpw4R/eDW8MDwhnfix+1xbUvgG/8EygLA3w9BXyKg==}
+  /@stn-ui/text@2.0.10(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-0Zn4jn6Qhd0SyEC3KGnM7DKV9KDszIf4KjCB8rGxVALFCJxWL5FHpqMP3ow3GjGVQbzZG6DZxH/5vdhD0anutA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/theme': 2.0.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@stn-ui/theme@2.0.13:
-    resolution: {integrity: sha512-g26svh1IOnvtmLeSHVw/VHouLl+ZUTQG9uWnk12SE4aSBg9M0TuNuE0L8HeYu60CUDClc8L0ihG4AhD9tVPtTg==}
+  /@stn-ui/theme@2.0.14:
+    resolution: {integrity: sha512-RapNz/6Bv1f5aON5GCAik9AlXNopeft7ckXt8tJAG3KkQREMW0SRbzWIrOF07b8xuiHU1PAYeKROEp4Jp+lDVw==}
     dependencies:
       clsx: 2.0.0
     dev: false
 
-  /@stn-ui/toasts@2.0.8(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-0M71cmOu12p8gop4U8g3SKv2xFCzedJguWGZKEJAEqmUlfkndbQT1RskkquiOwkmcv426kgYKZCmqv1RhNPnKg==}
+  /@stn-ui/toasts@2.0.9(framer-motion@10.16.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-PMIEBFU9Y2DWmCnP7FBxALiIzel9mjxqmt67q9ygxyjjstm1f3U1CqZdaBkjqVZ1YJqbDSjtOo6Y8DpXsRxihw==}
     peerDependencies:
       framer-motion: ^10.15.0
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@stn-ui/button': 2.0.18(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/icons': 2.0.11(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/button': 2.0.19(react-dom@18.2.0)(react@18.2.0)
+      '@stn-ui/icons': 2.0.12(react-dom@18.2.0)(react@18.2.0)
       '@stn-ui/react-utils': 2.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@stn-ui/theme': 2.0.13
+      '@stn-ui/theme': 2.0.14
       framer-motion: 10.16.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
