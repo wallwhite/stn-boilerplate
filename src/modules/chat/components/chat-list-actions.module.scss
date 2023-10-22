@@ -1,0 +1,16 @@
+.actions {
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .actions {
+    flex-direction: column;
+    padding-top: 32px;
+    flex-grow: 1;
+    width: 100%;
+     & > *  {
+      width: 100%;
+    }
+  }
+}
