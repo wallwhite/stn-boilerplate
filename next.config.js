@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: { unoptimized: true },
-  output: 'export',
+  output: 'standalone',
 };
 
 module.exports = nextConfig;
