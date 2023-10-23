@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "update:lib": "pnpm up \"@stn-ui/*\""
+    "update:lib": "pnpm up \"@stn-ui/*\"",
+    "db:seed": "pnpx prisma db seed",
+    "db:generate": "prisma generate",
+    "postdb:generate": "db:seed",
+    "postinstall": "pnpm db:generate"
   },
   "dependencies": {
     "@leafac/rehype-shiki": "^2.2.1",
