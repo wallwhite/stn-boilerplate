@@ -8,6 +8,9 @@ dependencies:
   '@leafac/rehype-shiki':
     specifier: ^2.2.1
     version: 2.2.1(shiki@0.14.3)
+  '@prisma/client':
+    specifier: 5.4.2
+    version: 5.4.2(prisma@5.4.2)
   '@stn-ui/accordion':
     specifier: ^2.0.14
     version: 2.0.14(framer-motion@10.16.4)(react-dom@18.2.0)(react@18.2.0)
@@ -169,6 +172,9 @@ devDependencies:
   '@wallwhite/eslint-config-react-ts':
     specifier: ^0.1.5
     version: 0.1.5(eslint@8.47.0)(prettier@2.8.8)(typescript@5.1.6)
+  prisma:
+    specifier: 5.4.2
+    version: 5.4.2
   sass:
     specifier: ^1.69.4
     version: 1.69.4
@@ -445,6 +451,28 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+
+  /@prisma/client@5.4.2(prisma@5.4.2):
+    resolution: {integrity: sha512-2xsPaz4EaMKj1WS9iW6MlPhmbqtBsXAOeVttSePp8vTFTtvzh2hZbDgswwBdSCgPzmmwF+tLB259QzggvCmJqA==}
+    engines: {node: '>=16.13'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      '@prisma/engines-version': 5.4.1-2.ac9d7041ed77bcc8a8dbd2ab6616b39013829574
+      prisma: 5.4.2
+    dev: false
+
+  /@prisma/engines-version@5.4.1-2.ac9d7041ed77bcc8a8dbd2ab6616b39013829574:
+    resolution: {integrity: sha512-wvupDL4AA1vf4TQNANg7kR7y98ITqPsk6aacfBxZKtrJKRIsWjURHkZCGcQliHdqCiW/hGreO6d6ZuSv9MhdAA==}
+    dev: false
+
+  /@prisma/engines@5.4.2:
+    resolution: {integrity: sha512-fqeucJ3LH0e1eyFdT0zRx+oETLancu5+n4lhiYECyEz6H2RDskPJHJYHkVc0LhkU4Uv7fuEnppKU3nVKNzMh8g==}
+    requiresBuild: true
 
   /@react-aria/focus@3.14.0(react@18.2.0):
     resolution: {integrity: sha512-Xw7PxLT0Cqcz22OVtTZ8+HvurDogn9/xntzoIbVjpRFWzhlYe5WHnZL+2+gIiKf7EZ18Ma9/QsCnrVnvrky/Kw==}
@@ -3979,6 +4007,14 @@ packages:
       ansi-regex: 3.0.1
       ansi-styles: 3.2.1
     dev: true
+
+  /prisma@5.4.2:
+    resolution: {integrity: sha512-GDMZwZy7mysB2oXU+angQqJ90iaPFdD0rHaZNkn+dio5NRkGLmMqmXs31//tg/qXT3iB0cTQwnGGQNuirhSTZg==}
+    engines: {node: '>=16.13'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 5.4.2
 
   /progress@2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}

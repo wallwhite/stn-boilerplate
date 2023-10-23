@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@leafac/rehype-shiki": "^2.2.1",
+    "@prisma/client": "5.4.2",
     "@stn-ui/accordion": "^2.0.14",
     "@stn-ui/avatar": "^2.0.18",
     "@stn-ui/banner": "^2.0.14",
@@ -71,6 +72,7 @@
   },
   "devDependencies": {
     "@wallwhite/eslint-config-react-ts": "^0.1.5",
+    "prisma": "5.4.2",
     "sass": "^1.69.4",
     "ts-node": "^10.9.1"
   },
