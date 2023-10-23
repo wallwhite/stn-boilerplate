@@ -9,6 +9,7 @@
     "lint": "next lint",
     "update:lib": "pnpm up \"@stn-ui/*\"",
     "db:seed": "pnpx prisma db seed",
+    "db:migrate": "pnpx prisma migrate dev --name init",
     "db:generate": "prisma generate",
     "postdb:generate": "db:seed",
     "postinstall": "pnpm db:generate"
@@ -76,6 +77,6 @@
     "ts-node": "^10.9.1"
   },
   "prisma": {
-    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+    "seed": "pnpm ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   }
 }
