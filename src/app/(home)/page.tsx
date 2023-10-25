@@ -27,7 +27,16 @@ const Home: NextPage = async () => (
       </THead>
       <TBody>
         {CHATS_LIST.map(
-          ({ id, title, lastMessage = 'default', icon, color = '#FF0000', tag = 'Default', counter, createdAt }) => (
+          ({
+            id,
+            title,
+            lastMessage = 'default',
+            icon,
+            color = '#FF0000',
+            tag = 'Default',
+            counter,
+            createdAt,
+          }) => (
             <ChatRow
               key={id}
               title={title}
