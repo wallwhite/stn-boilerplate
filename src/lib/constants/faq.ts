@@ -33,7 +33,8 @@ export const FAQ_ITEMS = [
   {
     id: 'will-you-use-my-conversations-for-training',
     title: 'Will you use my conversations for training?',
-    description: 'Yes. Your conversations may be reviewed by our AI trainers to improve our systems.',
+    description:
+      'Yes. Your conversations may be reviewed by our AI trainers to improve our systems.',
   },
   {
     id: 'how-can-i-implement-this-is-there-any-implementation-guide-for-this',

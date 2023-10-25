@@ -17,7 +17,11 @@ export const generateStaticParams = async (): Promise<{ id: string }[]> => {
   }));
 };
 
-export const generateMetadata = async ({ params: { id } }: { params: { id: string } }): Promise<{ title: string }> => {
+export const generateMetadata = async ({
+  params: { id },
+}: {
+  params: { id: string };
+}): Promise<{ title: string }> => {
   const { title } = await getPostById(id);
   return {
     title: `Blog | ${title}`,

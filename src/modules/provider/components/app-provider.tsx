@@ -9,7 +9,11 @@ import { modals } from '@/modules/modals/components';
 export const AppProvider: FC<PropsWithChildren> = ({ children }) => (
   <UIProvider>
     <ToastProvider>
-      <ModalProvider modalComponents={modals as unknown as ComponentProps<typeof ModalProvider>['modalComponents']}>
+      <ModalProvider
+        modalComponents={
+          modals as unknown as ComponentProps<typeof ModalProvider>['modalComponents']
+        }
+      >
         {children}
       </ModalProvider>
     </ToastProvider>

@@ -11,5 +11,12 @@ export const SidebarNavigation: FC = () => {
   const pathname = usePathname();
   const { isExpanded } = useSidebarContext();
 
-  return <Navigation items={SIDEBAR_NAVIGATION} isExpanded={isExpanded} pathname={pathname ?? ''} linkAs={Link} />;
+  return (
+    <Navigation
+      items={SIDEBAR_NAVIGATION}
+      isExpanded={isExpanded}
+      pathname={pathname ?? ''}
+      linkAs={Link}
+    />
+  );
 };
