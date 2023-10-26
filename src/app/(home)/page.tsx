@@ -1,19 +1,22 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
 import { NextPage } from 'next';
 import Link from 'next/link';
 import { ChatRow } from '@stn-ui/chat-row';
 import { Heading } from '@stn-ui/heading';
-import { TBody, THead, Table, Td } from '@stn-ui/table';
+import { TBody, THead, Table, Td, Tr } from '@stn-ui/table';
 import styles from './home.module.scss';
-import { CHATS_LIST } from '@/lib/api/api.constants';
 import { ChatListActions } from '@/modules/chat/components';
 
 export const dynamic = 'force-dynamic';
 
 const Home: NextPage = async () => {
-  const categories = await fetch(`${process.env.APP_HOST}/api/categories`).then((res) =>
+  const chatsPromise = fetch(`${process.env.APP_HOST}/api/chats`).then((res) => res.json());
+  const categoriesPromise = fetch(`${process.env.APP_HOST}/api/categories`).then((res) =>
     res.json(),
   );
+
+  const [chats, categories] = await Promise.all([chatsPromise, categoriesPromise]);
 
   return (
     <>
@@ -33,7 +36,13 @@ const Home: NextPage = async () => {
           <Td colSpan={2}>Messages</Td>
         </THead>
         <TBody>
-          {CHATS_LIST.map(
+          {!chats.length && (
+            <Tr>
+              <Td colSpan={12}>No chats yet</Td>
+              <Td />
+            </Tr>
+          )}
+          {(chats as any[]).map(
             ({
               id,
               title,

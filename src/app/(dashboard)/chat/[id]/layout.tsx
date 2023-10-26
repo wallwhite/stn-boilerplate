@@ -1,5 +1,5 @@
 import React from 'react';
-import { NextPage } from 'next';
+import { Metadata, NextPage } from 'next';
 import { ChatLayout } from '@stn-ui/layout';
 
 interface LayoutProps {
@@ -9,8 +9,25 @@ interface LayoutProps {
   };
 }
 
-const Layout: NextPage<LayoutProps> = async ({ children }) => (
-  <ChatLayout title="my chat">{children}</ChatLayout>
-);
+export const generateMetadata = async ({
+  params,
+}: {
+  params: { id: string };
+}): Promise<Metadata> => {
+  const chat = await fetch(`${process.env.APP_HOST}/api/chats/${params.id}`).then((res) =>
+    res.json(),
+  );
+
+  return {
+    title: `Chat: ${chat.title} `,
+  };
+};
+
+const Layout: NextPage<LayoutProps> = async ({ children, params }) => {
+  const chat = await fetch(`${process.env.APP_HOST}/api/chats/${params.id}`).then((res) =>
+    res.json(),
+  );
+  return <ChatLayout title={chat.title}>{children}</ChatLayout>;
+};
 
 export default Layout;
