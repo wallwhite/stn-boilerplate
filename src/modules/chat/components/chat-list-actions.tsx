@@ -1,12 +1,17 @@
 'use client';
 
 import React, { FC } from 'react';
+import { Category } from '@prisma/client';
 import { Button } from '@stn-ui/button';
 import { useCreateChatCategory, useCreateChat } from '../hooks';
 import styles from './chat-list-actions.module.scss';
 
-export const ChatListActions: FC = () => {
-  const createChat = useCreateChat({});
+interface Props {
+  categories: Category[];
+}
+
+export const ChatListActions: FC<Props> = ({ categories }) => {
+  const createChat = useCreateChat({ categories });
   const createCategory = useCreateChatCategory();
 
   return (
