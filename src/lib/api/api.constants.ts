@@ -1,32 +1,31 @@
-export const CHATS_LIST = [
-  {
-    id: 1,
-    title: 'Some Chat',
-    lastMessage: "I'd like to know more about next.js",
-    icon: '🦧',
-    color: '#3F51B5',
-    tag: 'Next.js',
-    counter: 23,
-    createdAt: Date.now().toString(),
+export const CHATS_CREATIVITY = {
+  low: {
+    temperature: 0.7,
+    max_tokens: 230,
+    top_p: 1,
+    frequency_penalty: 0.5,
+    presence_penalty: 0.5,
+    model: 'gpt-3.5-turbo',
   },
-  {
-    id: 2,
-    title: 'Another Chat',
-    lastMessage: 'I like your blog!',
-    icon: '🐵',
-    color: '#FF4081',
-    tag: 'React',
-    counter: 1,
-    createdAt: Date.now().toString(),
+  medium: {
+    temperature: 0.7,
+    max_tokens: 320,
+    top_p: 1,
+    frequency_penalty: 0.5,
+    presence_penalty: 0.5,
+    model: 'gpt-3.5-turbo',
   },
-  {
-    id: 3,
-    title: 'Third Chat',
-    lastMessage: 'What the f*ck is this, and what am I doing here?',
-    icon: '🙈',
-    color: '#FFD740',
-    tag: 'React',
-    counter: 999,
-    createdAt: Date.now().toString(),
+  high: {
+    temperature: 0.7,
+    max_tokens: 640,
+    top_p: 1,
+    frequency_penalty: 0.5,
+    presence_penalty: 0.5,
+    model: 'gpt-3.5-turbo',
   },
-];
+  super: {
+    model: 'gpt-4',
+    max_tokens: 1200,
+    temperature: 1.3,
+  },
+};
