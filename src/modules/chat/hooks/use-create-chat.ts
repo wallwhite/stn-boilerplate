@@ -1,10 +1,11 @@
 'use client';
 
+import { Category } from '@prisma/client';
 import { useModals } from '@stn-ui/modal';
 import { ModalNames } from '@/modules/modals/constants';
 
 interface UseCreateChatInput {
-  categories?: { id: string; name: string; color: string }[]; // TODO: Replace with prisma type
+  categories?: Category[];
   onComplete?: () => void | Promise<void>;
 }
 
