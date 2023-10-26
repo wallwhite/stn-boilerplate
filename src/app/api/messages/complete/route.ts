@@ -13,4 +13,4 @@ import { NextResponse } from 'next/server';
 //     content: message.content,
 //   }));
 
-export const POST = async (): Promise<NextResponse> => NextResponse.next();
+export const POST = async (): Promise<NextResponse> => NextResponse.json({});
