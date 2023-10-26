@@ -1,4 +1,4 @@
-import { PrismaClient, Category, User } from '@prisma/client';
+import { PrismaClient, Category, User, Prisma, Message, Chat } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
@@ -14,7 +14,50 @@ export const getMockUser = async (): Promise<User> =>
 export const getMockUserId = async (): Promise<string> =>
   getMockUser().then((user) => user?.id ?? '');
 
-export const getChatsList = async (): Promise<void> => {};
+export const getChatsList = async (userId: string): Promise<Chat[]> =>
+  prisma.chat
+    .findMany({
+      where: {
+        users: {
+          some: {
+            userId,
+          },
+        },
+      },
+      include: {
+        _count: {
+          select: { messages: true },
+        },
+        messages: {
+          orderBy: {
+            createdAt: 'desc',
+          },
+          take: 1,
+        },
+        category: {
+          select: {
+            name: true,
+            color: true,
+          },
+        },
+      },
+      orderBy: {
+        updatedAt: 'desc',
+      },
+    })
+    .then((chats) =>
+      chats.map((chat) => {
+        const { messages, category, _count, ...rest } = chat;
+
+        return {
+          ...rest,
+          lastMessage: messages[0].content,
+          color: category.color,
+          tag: category.name,
+          counter: _count.messages,
+        };
+      }),
+    );
 
 export const getCategoriesList = async (userId: string): Promise<Category[]> =>
   prisma.category.findMany({
@@ -30,11 +73,38 @@ export const getCategoriesList = async (userId: string): Promise<Category[]> =>
     },
   });
 
-export const getCategoryById = async (): Promise<void> => {};
+export const getCategoryById = async (id: string): Promise<Category | null> =>
+  prisma.category.findUnique({
+    where: {
+      id,
+    },
+  });
 
-export const getChatById = async (): Promise<void> => {};
+export const getChatById = async (
+  id: string,
+  include?: Prisma.ChatFindUniqueArgs['include'],
+): Promise<(Chat & { messages?: Message[] }) | null> =>
+  prisma.chat.findUnique({
+    where: {
+      id,
+    },
+    include,
+  });
 
-export const getMessagesByChatId = async (): Promise<void> => {};
+export const getMessagesByChatId = async (
+  chatId: string | undefined,
+  count = 20,
+  orderBy: 'asc' | 'desc' = 'desc',
+): Promise<Omit<Message, 'createdAt'>[]> =>
+  prisma.message.findMany({
+    where: {
+      chatId,
+    },
+    take: count,
+    orderBy: {
+      createdAt: orderBy,
+    },
+  });
 
 // Mutations
 export const createCategory = async (
@@ -66,10 +136,102 @@ export const createCategory = async (
   return category;
 };
 
-export const createMessage = async (): Promise<void> => {};
+export const createMessage = async (
+  data: Pick<Message, 'content' | 'role'>,
+  chatId: string | undefined,
+  authorId?: string,
+): Promise<Message> => {
+  const message = await prisma.message.create({
+    data: {
+      ...data,
+      chat: {
+        connect: {
+          id: chatId,
+        },
+      },
+      ...(authorId && {
+        author: {
+          connect: {
+            id: authorId,
+          },
+        },
+      }),
+    },
+    include: {
+      author: {
+        select: {
+          name: true,
+        },
+      },
+    },
+  });
+  await prisma.chat.update({
+    where: {
+      id: chatId,
+    },
+    data: {
+      updatedAt: new Date(),
+    },
+  });
 
-export const createChat = async (): Promise<void> => {};
+  return message;
+};
 
-export const deleteChats = async (): Promise<void> => {};
+export const createChat = async (
+  { content, ...data }: Omit<Prisma.ChatCreateInput, 'category'> & { content: string },
+  currentUserId: string,
+  categoryId: string | undefined,
+): Promise<Chat> =>
+  prisma.chat.create({
+    data: {
+      ...data,
+      title: data?.title ?? 'New Chat',
+      icon: data?.icon ?? '🤖',
+      creativity: data?.creativity ?? 'medium',
+      category: {
+        connect: {
+          id: categoryId,
+        },
+      },
+      users: {
+        create: {
+          user: {
+            connect: {
+              id: currentUserId,
+            },
+          },
+        },
+      },
+      messages: {
+        create: {
+          content:
+            content ??
+            'Act like my best friend, with jokes advices and support. I will do the same for you. We can talk about anything. Be yourself.',
+          role: 'system',
+          author: {
+            connect: {
+              id: currentUserId,
+            },
+          },
+        },
+      },
+    },
+  });
 
-export const deleteChatById = async (): Promise<void> => {};
+export const deleteChats = async (userId: string): Promise<Prisma.BatchPayload> =>
+  prisma.chat.deleteMany({
+    where: {
+      users: {
+        some: {
+          userId,
+        },
+      },
+    },
+  });
+
+export const deleteChatById = async (chatId: string): Promise<Chat> =>
+  prisma.chat.delete({
+    where: {
+      id: chatId,
+    },
+  });

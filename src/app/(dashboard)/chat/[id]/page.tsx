@@ -1,5 +1,6 @@
 import React from 'react';
 import { NextPage } from 'next';
+import { Chat } from '@/modules/chat/components';
 
 interface Props {
   params: {
@@ -7,6 +8,6 @@ interface Props {
   };
 }
 
-const Page: NextPage<Props> = async () => <>chat page</>;
+const Page: NextPage<Props> = async () => <Chat messages={[]} />;
 
 export default Page;
