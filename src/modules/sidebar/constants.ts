@@ -9,6 +9,24 @@ export const SIDEBAR_NAVIGATION: NavigationItem[] = [
     icon: HomeIcon,
   },
   {
+    title: 'Home (axios)',
+    url: '/home',
+    color: '#3e90f0',
+    icon: HomeIcon,
+  },
+  {
+    title: 'Home Q(axios)',
+    url: '/home1',
+    color: '#3e90f0',
+    icon: HomeIcon,
+  },
+  {
+    title: 'Home Q(fetch)',
+    url: '/home2',
+    color: '#3e90f0',
+    icon: HomeIcon,
+  },
+  {
     title: 'Features',
     url: '/features',
     color: '#3fdd78',

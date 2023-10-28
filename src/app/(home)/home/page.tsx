@@ -2,32 +2,23 @@
 import React from 'react';
 import { NextPage } from 'next';
 import Link from 'next/link';
+import axios from 'axios';
 import { ChatRow } from '@stn-ui/chat-row';
 import { Heading } from '@stn-ui/heading';
 import { TBody, THead, Table, Td, Tr } from '@stn-ui/table';
-import styles from './home.module.scss';
-import { ChatListActions } from '@/modules/chat/components';
-import { NoCacheForPage } from '@/modules/no-cache-for-page';
+import styles from '../home.module.scss';
+import { HomeActions } from './home-actions';
 
 export const dynamic = 'force-dynamic';
 
 const Home: NextPage = async () => {
-  const chatsPromise = fetch(`${process.env.APP_HOST}/api/chats`, {
-    next: {
-      tags: ['chats'],
-    },
-  }).then((res) => res.json());
-  const categoriesPromise = fetch(`${process.env.APP_HOST}/api/categories`).then((res) =>
-    res.json(),
-  );
-
-  const [chats, categories] = await Promise.all([chatsPromise, categoriesPromise]);
+  const { data: chats } = await axios.get(`${process.env.APP_HOST}/api/chats`);
 
   return (
-    <NoCacheForPage>
+    <>
       <div className={styles.toolbar}>
         <Heading variant="h5">Chats list</Heading>
-        <ChatListActions categories={categories} />
+        <HomeActions />
       </div>
       <Table>
         <THead>
@@ -74,7 +65,7 @@ const Home: NextPage = async () => {
           )}
         </TBody>
       </Table>
-    </NoCacheForPage>
+    </>
   );
 };
 
