@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getChatsList, getMockUserId } from '@/lib/api/prisma.api';
+import { getChatsList, getMockUserId } from '@/lib/api/db';
 
 export const dynamic = 'force-dynamic';
 

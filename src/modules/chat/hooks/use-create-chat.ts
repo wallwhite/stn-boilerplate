@@ -1,10 +1,10 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
 import { Category } from '@prisma/client';
 import { AddChatFormData } from '@stn-ui/forms';
 import { useModals } from '@stn-ui/modal';
 import { ToastTypes, useToasts } from '@stn-ui/toasts';
-import { revalidate } from '@/lib/api/actions';
 import { ModalNames } from '@/modules/modals/constants';
 
 interface UseCreateChatInput {
@@ -18,6 +18,7 @@ export const useCreateChat = ({
   categories = [],
   onComplete,
 }: UseCreateChatInput): UseCreateChatOutput => {
+  const router = useRouter();
   const { openModal, closeModal } = useModals();
   const { notify } = useToasts();
 
@@ -39,7 +40,7 @@ export const useCreateChat = ({
 
     await onComplete?.();
 
-    revalidate('/');
+    router.refresh();
 
     notify({
       type: ToastTypes.Success,

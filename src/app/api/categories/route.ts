@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createCategory, getCategoriesList, getMockUserId } from '@/lib/api/prisma.api';
+import { createCategory, getCategoriesList, getMockUserId } from '@/lib/api/db';
 
 export const dynamic = 'force-dynamic';
 

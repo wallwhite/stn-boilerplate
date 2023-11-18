@@ -2,7 +2,7 @@ import { PropsWithChildren } from 'react';
 import { NextPage } from 'next';
 import Link from 'next/link';
 import { ArticleLayout } from '@stn-ui/layout';
-import { getPostById } from '@/lib/api';
+import { getPostById } from '@/lib/api/blog';
 
 const Layout: NextPage<PropsWithChildren & { params: { id: string } }> = async ({
   children,

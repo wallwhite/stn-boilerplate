@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import fs from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
-import { ContentType } from './api.types';
-import { getParser } from './api.utils';
+import { ContentType } from './blog.api-types';
+import { getParser } from './blog.api-utils';
 
 const CONTENT_PATH = join(process.cwd(), './src/content');
 

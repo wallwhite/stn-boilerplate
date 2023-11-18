@@ -1,9 +1,9 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
 import { AddCategoryFormData } from '@stn-ui/forms';
 import { useModals } from '@stn-ui/modal';
 import { ToastTypes, useToasts } from '@stn-ui/toasts';
-import { revalidate } from '@/lib/api/actions';
 import { ModalNames } from '@/modules/modals/constants';
 
 export interface UseCreateChatCategoryInput {
@@ -15,6 +15,7 @@ export type UseCreateChatCategoryOutput = () => void;
 export const useCreateChatCategory = ({
   onComplete,
 }: UseCreateChatCategoryInput = {}): UseCreateChatCategoryOutput => {
+  const router = useRouter();
   const { openModal, closeModal } = useModals();
   const { notify } = useToasts();
 
@@ -34,7 +35,7 @@ export const useCreateChatCategory = ({
 
     await onComplete?.();
 
-    revalidate('/');
+    router.refresh();
 
     notify({
       type: ToastTypes.Success,

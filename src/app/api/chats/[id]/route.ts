@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import dayjs from 'dayjs';
-import { getChatById } from '@/lib/api/prisma.api';
+import { getChatById } from '@/lib/api/db';
 
 interface Params {
   params: {

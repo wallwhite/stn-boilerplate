@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
 import { PostArticle } from '@stn-ui/blog';
-import { getAllPosts, getPostById } from '@/lib/api';
+import { getAllPosts, getPostById } from '@/lib/api/blog';
 
 const Post: NextPage<{ params: { id: string } }> = async ({ params: { id } }) => {
   const { html, image, title } = await getPostById(id);

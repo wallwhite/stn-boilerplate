@@ -3,6 +3,9 @@
 
 Welcome to `stn-boilerplate`! Designed with education in mind, this boilerplate is your stepping stone into the world of Next.js 13. Dive deep into the features of Next.js 13 with essential packages, UI kits, and configurations, all set up to accelerate your learning journey.
 
+## Guide
+
+[https://sunny-silver-6c3.notion.site/Part-3-a74525d38080417bbe0a76b6b7ac5c59?pvs=4](Go to notion to see the guide)
 
 ## 📦 Features
 

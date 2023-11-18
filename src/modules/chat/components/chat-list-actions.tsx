@@ -16,7 +16,7 @@ export const ChatListActions: FC<Props> = ({ categories }) => {
 
   return (
     <div className={styles.actions}>
-      <Button size="m" onClick={createChat}>
+      <Button size="m" onClick={createChat} isDisabled={!categories.length}>
         Create chat
       </Button>
       <Button size="m" variant="secondary" onClick={createCategory}>

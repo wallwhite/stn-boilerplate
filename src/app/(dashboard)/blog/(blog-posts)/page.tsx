@@ -3,7 +3,7 @@ import { Metadata, NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { PostList, PostListItem } from '@stn-ui/blog';
-import { getAllPosts } from '@/lib/api';
+import { getAllPosts } from '@/lib/api/blog';
 
 export const metadata: Metadata = {
   title: {

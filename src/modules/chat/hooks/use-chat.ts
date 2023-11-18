@@ -1,11 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import { nanoid } from 'nanoid';
 import { ToastTypes, useToasts } from '@stn-ui/toasts';
 import { ChatMessage } from '../types';
-import { revalidate } from '@/lib/api/actions';
 
 interface UseChatsOutput {
   messages: ChatMessage[];
@@ -13,6 +12,7 @@ interface UseChatsOutput {
 }
 
 export const useChats = (initialMessages: ChatMessage[]): UseChatsOutput => {
+  const router = useRouter();
   const { notify } = useToasts();
   const { id: chatId } = useParams();
 
@@ -51,7 +51,7 @@ export const useChats = (initialMessages: ChatMessage[]): UseChatsOutput => {
         completion,
       ]);
 
-      revalidate('/');
+      router.refresh();
     } catch {
       notify({
         type: ToastTypes.Danger,

@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Message } from '@prisma/client';
 import OpenAI from 'openai';
 import { ChatCompletionMessageParam } from 'openai/resources/chat/index.mjs';
-import { CHATS_CREATIVITY } from '@/lib/api/api.constants';
-import { createMessage, getChatById, getMessagesByChatId } from '@/lib/api/prisma.api';
+import { createMessage, getChatById, getMessagesByChatId } from '@/lib/api/db';
+import { CHATS_CREATIVITY } from '@/modules/chat/constants';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || '',

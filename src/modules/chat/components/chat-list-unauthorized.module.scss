@@ -1,0 +1,18 @@
+.unauthorized {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(227,233,238);
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  gap: 64px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+}

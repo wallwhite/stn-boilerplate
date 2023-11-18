@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createChat, getCategoryById, getMockUserId } from '@/lib/api/prisma.api';
+import { createChat, getCategoryById, getMockUserId } from '@/lib/api/db';
 
 export const POST = async (req: NextRequest): Promise<NextResponse> => {
   try {

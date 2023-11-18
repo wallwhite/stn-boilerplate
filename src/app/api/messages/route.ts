@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createMessage, getChatById, getMockUserId } from '@/lib/api/prisma.api';
+import { createMessage, getChatById, getMockUserId } from '@/lib/api/db';
 
 export const POST = async (req: NextRequest): Promise<NextResponse> => {
   const body = await req.json();
