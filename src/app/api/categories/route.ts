@@ -1,36 +1,33 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { createCategory, getCategoriesList, getMockUserId } from '@/lib/api/db';
+import { NextResponse } from 'next/server';
+import { createCategory, getCategoriesList } from '@/lib/api/db';
+import { withSessionHandler } from '@/modules/auth/server/with-session-handler';
 
 export const dynamic = 'force-dynamic';
 
-export const POST = async (req: NextRequest): Promise<NextResponse> => {
+export const POST = withSessionHandler(async ({ req, currentUser }) => {
   try {
     const body = await req.json();
-
-    const userId = await getMockUserId();
 
     const category = await createCategory(
       {
         name: body?.name ?? 'Undefined',
         color: body?.color ?? '#3F51B5',
       },
-      userId,
+      currentUser.id,
     );
 
     return NextResponse.json(category);
   } catch (error) {
     return NextResponse.json({ error });
   }
-};
+});
 
-export const GET = async (): Promise<NextResponse> => {
+export const GET = withSessionHandler(async ({ currentUser }) => {
   try {
-    const userId = await getMockUserId();
-
-    const categories = await getCategoriesList(userId);
+    const categories = await getCategoriesList(currentUser.id);
 
     return NextResponse.json(categories);
   } catch (error) {
     return NextResponse.json({ error });
   }
-};
+});

@@ -1,11 +1,10 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { createChat, getCategoryById, getMockUserId } from '@/lib/api/db';
+import { NextResponse } from 'next/server';
+import { createChat, getCategoryById } from '@/lib/api/db';
+import { withSessionHandler } from '@/modules/auth/server/with-session-handler';
 
-export const POST = async (req: NextRequest): Promise<NextResponse> => {
+export const POST = withSessionHandler(async ({ req, currentUser }) => {
   try {
     const body = await req.json();
-
-    const currentUserId = await getMockUserId();
 
     const category = await getCategoryById(body?.categoryId);
 
@@ -18,12 +17,11 @@ export const POST = async (req: NextRequest): Promise<NextResponse> => {
           body?.content ??
           'Act like my best friend, with jokes advices and support. I will do the same for you. We can talk about anything. Be yourself.',
       },
-      currentUserId,
+      currentUser?.id,
       category?.id,
     );
-
-    return NextResponse.json(chat, { status: 200 });
+    return NextResponse.json(chat);
   } catch (e) {
     return NextResponse.json({ error: e });
   }
-};
+});
